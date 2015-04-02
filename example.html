@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UI example</title>
+  <link rel="stylesheet" type="text/css" href="reset.css" media="all">
+  <link rel="stylesheet" type="text/css" href="luis.css" media="all">
+  <style>
+    .row .col {
+      background-color: #ccc;
+      height: 50px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .row {
+      height: 70px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Try it out</h1>
+    <h2>Example table</h2>
+    <table class="fit">
+      <tr>
+        <th>User</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>1500</td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>1500</td>
+      </tr>
+    </table>
+    <h2>Columns</h2>
+    <div class="row">
+      <div class="col c1">
+        1 col
+      </div>
+      <div class="col c2">
+        2 columns
+      </div>
+      <div class="col c3">
+        3 columns
+      </div>
+      <div class="col c6">
+        6 columns
+      </div>
+    </div>
+    <div class="row">
+      <div class="col c6">
+        Half
+      </div>
+      <div class="col c6">
+        Half
+      </div>
+    </div>
+    <div class="row">
+      <div class="col c6">
+        Half
+      </div>
+      <div class="col c3">
+        One third
+      </div>
+      <div class="col c3">
+        One third
+      </div>
+    </div>
+    <h2>Offsets</h2>
+    <div class="row">
+      <div class="o2 col c2">
+        2 col width offset 2
+      </div>
+      <div class="col c4">
+        4 column
+      </div>
+    </div>
+    <div class="row">
+      <div class="o6 col c4">
+        4 col offset 6
+      </div>
+    </div>
+    <h2>Form</h2>
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input id="name" class="fit" type="text" name="name" placeholder="Name"/>
+      <input type="submit" value="Submit"/>
+    </form>
+    <h2>Links</h2>
+    <a href="#">Nice link 1</a> - <a href="#">Nice link 2</a> - <a href="#">Nice link 3</a>
+    <h2>Lists</h2>
+    <h3>Simple</h3>
+    <ul>
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ul>
+    <h3>Numbered</h3>
+    <ol>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ol>
+    <h2>Floating</h2>
+    <div class="row">
+      <div class="left">
+        Left
+      </div>
+      <div class="right">
+        Right
+      </div>
+    </div>
+    <h2>Code, blockquote</h2>
+    <pre>
+      var Hello = "Hello";
+      alert(Hello);
+    </pre>
+  </div>
+</body>
+</html>
