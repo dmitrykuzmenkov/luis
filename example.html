@@ -13,13 +13,32 @@
       vertical-align: middle;
     }
     .row {
-      height: 70px;
+      min-height: 70px;
+    }
+    .fluid {
+      background-color: #ccc;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Try it out</h1>
+  </div>
+  <div class="container-fluid fluid">
+    <div class="row">
+      This is an example of fluid container
+    </div>
+  </div>
+  <div class="container">
+    <h2>Headers samples</h2>
+    <div class="row">
+      <h1>Header #1</h1>
+      <h2>Header #2</h2>
+      <h3>Header #3</h3>
+      <h4>Header #4</h4>
+      <h5>Header #5</h5>
+      <h6>Header #6</h6>
+    </div>
     <h2>Example table</h2>
     <table class="fit">
       <tr>

@@ -1,3 +1,6 @@
+body, html, form, input, button, label, span, header, footer, div, h1, h2, h3, h4, h5, h6, li, ul, ol {
+  box-sizing: border-box;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
